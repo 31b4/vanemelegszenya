@@ -22,12 +22,15 @@ function MpKiir(){
         document.getElementById("mp").innerHTML=secondBetweenTwoDate +' mp múlva kapható'
     }
     secondBetweenTwoDate-=1
+    if (secondBetweenTwoDate == 0) {
+        window.location.reload();
+    }
 }
 
 function CalcSeconds() {
     if(stat){//van
         console.log(Math.abs(stop-((h*60)+m)))
-        return Math.abs(((stop-((h*60)+m))*60 )+ t.getSeconds())
+        return Math.abs(((stop-((h*60)+m))*60 )- t.getSeconds())
     }
     else{
         console.log(Math.abs(start-((h*60)+m)))
