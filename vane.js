@@ -1,6 +1,6 @@
 //---------------------------VANEMELEGSZENYA???--------------------------------
 
-var zaras = [12,30]//hour,min
+var zaras = [13,0]//hour,min
 var nyitas = [7,15]
 let start = (nyitas[0] * 60) + nyitas[1];
 let stop = (zaras[0] * 60) + zaras[1];
