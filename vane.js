@@ -42,7 +42,7 @@ function vanE(){
     var p = document.createElement("p")
     var dayOfWeek = t.getDay();
     var txt=''
-    var isWeekend = (dayOfWeek === 6) || (dayOfWeek  === 3);
+    var isWeekend = (dayOfWeek === 6) || (dayOfWeek  === 0);
     if (isWeekend){
         txt="nincs. hetvege van"
     }
