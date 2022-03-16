@@ -44,7 +44,7 @@ function vanE(){
     var txt=''
     var isWeekend = (dayOfWeek === 6) || (dayOfWeek  === 3);
     if (isWeekend){
-        txt="nincs."
+        txt="nincs. hetvege van"
     }
     else if((h>zaras[0] || (h == zaras[0] && m >=zaras[1]))){
         txt="nincs."
