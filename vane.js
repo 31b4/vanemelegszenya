@@ -56,5 +56,5 @@ function vanE(){
         txt="van."
         stat =true
     }
-    document.getElementById("van").innerHTML=txt
+    document.getElementById("van").innerHTML=txt+" (jelenleg 515ft, nem ajanlott venni)"
 }
