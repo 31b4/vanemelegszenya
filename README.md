@@ -1,2 +1,2 @@
 # vanemelegszenya
-vanemelegszenya.netlify.com
+www.vanemelegszenya.netlify.com
