@@ -56,5 +56,5 @@ function vanE(){
         txt="van."
         stat =true
     }
-    document.getElementById("van").innerHTML=txt+" (jelenleg 550ft, nem ajanlott venni)"
+    document.getElementById("van").innerHTML=txt+" (jelenleg 550ft, inflacio)"
 }
