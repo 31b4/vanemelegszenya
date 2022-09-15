@@ -1,6 +1,6 @@
 //---------------------------VANEMELEGSZENYA???--------------------------------
 
-var zaras = [10,30]//hour,min
+var zaras = [12,30]//hour,min
 var nyitas = [7,15]
 let start = (nyitas[0] * 60) + nyitas[1];
 let stop = (zaras[0] * 60) + zaras[1];
@@ -56,5 +56,5 @@ function vanE(){
         txt="van."
         stat =true
     }
-    document.getElementById("van").innerHTML=txt+" (jelenleg 515ft, nem ajanlott venni)"
+    document.getElementById("van").innerHTML=txt+" (jelenleg 550ft, nem ajanlott venni)"
 }
