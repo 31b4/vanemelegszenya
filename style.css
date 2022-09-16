@@ -8,6 +8,7 @@ body{
 p{
     color: black;
     font-weight: bold;
+    background-color: white;
     text-align: center;
     font-size: larger;
 }
