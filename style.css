@@ -1,5 +1,9 @@
 body{
     background-color: rgb(68, 67, 67);
+    background-image: url("img/IMG_0156.JPEG");
+    background-size:fill;
+    background-size: 100%;
+    background-attachment:fixed;
 }
 p{
     color: whitesmoke;
